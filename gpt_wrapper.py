@@ -1,5 +1,5 @@
 from openai import OpenAI
-from streamlit import st
+import streamlit as st
 
 openai_key = st.secrets["OPENAI_KEY"]
 client = OpenAI(api_key=openai_key)
